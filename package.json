@@ -1,0 +1,28 @@
+{
+  "name": "testing_storefrontsmes",
+  "version": "1.0.0",
+  "description": "Testing StorefrontSMES",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress run --record --key 19a4321e-57c1-44b1-a77f-a4f75f3f7d4e",
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaliTech-Training-Academy/testing_storefrontsmes.git"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "Amali-Tech_Training_Academy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmaliTech-Training-Academy/testing_storefrontsmes/issues"
+  },
+  "homepage": "https://github.com/AmaliTech-Training-Academy/testing_storefrontsmes#readme",
+  "dependencies": {
+    "cypress": "^12.7.0",
+    "cypress-mailosaur": "^2.13.0",
+    "mailosaur": "^8.5.0"
+  }
+}
